@@ -150,7 +150,6 @@ def main():
 							print "red"
 							print image.getpixel((cordon))
 							image.putpixel((cordon),(255,0,0))
-							#print image.getpixel((cordoni))
 							break	
 			for j in jj:
 				for i in ii :
@@ -160,7 +159,6 @@ def main():
 							print "green"
 							print image.getpixel((cordon))
 							image.putpixel(cordon,(0,255,0))
-							#print image.getpixel((cordonis))
 							break
 			for j in jj:
 				for i in ii :
@@ -170,7 +168,6 @@ def main():
 							print "blue"
 							print image.getpixel((cordon))
 							image.putpixel(cordon,(0,0,255))
-							#print image.getpixel((cordoniz))
 							break
 
 			true = False
